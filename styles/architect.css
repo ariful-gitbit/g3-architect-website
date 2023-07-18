@@ -6,6 +6,10 @@
   font-family: 'Work Sans', sans-serif;  
 }
 
+body {
+  margin: 0;
+}
+
 .text-light-gray {
   color: #727272;
 }
@@ -21,9 +25,12 @@
   border: 0;
 }
 
-body {
-  margin: 0;
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
 }
+
 
 /* header styles */
 header {
@@ -35,12 +42,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.nav-title {
-  font-size: 2.8rem;
-  font-weight: 700;
-  color: #131313;
 }
 
 nav > ul {
